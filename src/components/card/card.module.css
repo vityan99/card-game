@@ -1,0 +1,49 @@
+.card {
+  padding: 5px;
+  width: 200px;
+  background-color: rgb(74, 74, 235);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 6px 6px 10px 3px rgba(34, 60, 80, 0.2);
+}
+
+.card--not-active {
+  padding: 5px;
+  width: 200px;
+  background-color: rgb(144, 144, 251);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 6px 6px 10px 3px rgba(34, 60, 80, 0.2);
+}
+
+.card__img-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.user--online::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.card__username,
+.card__money {
+  color: #fff;
+}
