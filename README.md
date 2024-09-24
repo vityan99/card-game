@@ -1,4 +1,4 @@
-# Card-game - игра (React + TS + Redux Toolkit)
+# Card game - игра (React + TS + Redux Toolkit)
 
 Главная задача игры:
 
