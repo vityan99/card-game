@@ -28,7 +28,7 @@ export const initialState: IInitialState = {
     {
       id: 2,
       name: "Mark",
-      avatar: "https://www.clipartmax.com/png/full/267-2671061_yükle-youssefdibeyoussefdibe-profile-picture-user-male.png",
+      avatar: "https://i.pinimg.com/originals/f4/f3/dd/f4f3dd7acfd64b16aa51027159a6f5e8.png",
       money: 0,
       online: true,
     },
